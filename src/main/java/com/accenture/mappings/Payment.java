@@ -1,12 +1,9 @@
 package com.accenture.mappings;
 
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class Payment {
-    @JsonProperty("user")
+
     private String user;
-    @JsonProperty("amount")
     private float amount;
 
     @Override
